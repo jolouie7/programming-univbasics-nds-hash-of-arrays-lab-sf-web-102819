@@ -10,6 +10,5 @@ def add_character(show, name)
   # Should return the array of the 'show' argument
   BASE_HOA[:chipmunks] << "Dave"
   BASE_HOA[:third_earthers] << "Snarf"
-  console.log(show, name)
   BASE_HOA[show]
 end
